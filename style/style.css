@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Lato:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Android";
+    src: url("../fontes/idroid.otf") format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #F8E8F6;
+    --cor1: #EECEEB;
+    --cor2: #A11C94;
+    --cor3: #5C0954;
+    --corblack: #090909;
+    --corwhite: #FCFCFC;
+
+    --font-padrao: 'Lato', sans-serif;
+    --font-destaque: 'B612', sans-serif;
+    --font-titulos: 'Android', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-padrao);
+    line-height: 26px;
+    text-align: justify;
+    color: var(--corblack);
+    width: 100%;
+
+    background-color: var(--cor0);
+}
+
+header {
+    padding: 10px;
+
+    color: var(--corwhite);
+    background-image: linear-gradient(180deg, var(--cor2), var(--cor3));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: var(--font-destaque);
+    font-size: 36px;
+    margin: 30px;
+}
+
+header p {
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    width: 490px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {    
+    font-family: var(--font-destaque);
+    font-size: 16px;
+
+    background-color: var(--cor3);
+    box-shadow: 0px 3px 3px rgb(193, 165, 196);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+nav a {
+    padding: 20px;
+    color: var(--corwhite);
+}
+
+nav a:hover {
+    color: var(--cor3);
+    border-radius: 3px;
+    background-color: var(--cor1);
+}
+
+main {   
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    box-shadow: 0px 3px 7px rgb(193, 165, 196);
+    background-color: var(--corwhite);
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+article {
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+main h1 {
+    font-family: var(--font-titulos);
+    font-size: 26px;
+    color: var(--cor2);
+}
+
+main h2 {
+    font-family: var(--font-titulos);
+    font-size: 20px;
+    color: var(--cor2);
+    margin: 10px 0px;
+    padding: 5px 15px;
+
+    background-image: linear-gradient(90deg, var(--cor1), transparent);
+}
+
+main a {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+#bugdroid {
+    height: 40%;
+    width: 40%;
+    margin: auto;
+}
+
+main p {
+    margin: 10px 0px;
+    text-indent: 20px;
+}
+
+.video {
+    padding: 15px;
+    background-color: var(--cor3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 12px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+aside h3 {
+    font-family: var(--font-destaque);
+    color: var(--corwhite);
+    font-size: 20px;
+
+    background-color: var(--cor2);
+    border-radius: 12px 12px 0px 0px;
+    padding: 8px 12px;
+
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+aside p {
+    padding: 0px 20px;
+    margin: 5px 0px;
+}
+
+aside a {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+#listas {
+    width: 450px;
+    margin: 10px;
+    padding: 0px 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#lista1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#lista2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    
+footer {
+    color: var(--corwhite);
+    background-color: var(--cor3);
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--cor1);
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+footer a:hover {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    header h1 {
+        font-size: 20px;
+        margin: 15px;
+    }    
+    header p {
+        font-size: 18px;
+        margin-bottom: 5px;
+        width: 420px;
+    }
+    nav a {
+        margin: 0px 0px 0px 4px;
+    }
+    main {
+        width: 400px;
+    }
+    article {
+        width: 400px;
+        font-size: 16px;
+    }
+    main h1{
+        font-size: 20px;
+    }
+    main h2{
+        font-size: 16px;
+    }
+    aside h3{
+        font-size: 16px;
+    }
+    #listas {
+        width: 350px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    header h1 {
+        font-size: 30px;
+        margin: 18px;
+    }    
+    header p {
+        font-size: 20px;
+        margin-bottom: 8px;
+        width: 550px;
+    }
+    main {
+        width: 550px;
+    }
+    article {
+        width: 550px;
+        font-size: 18px;
+    }
+    main h1{
+        font-size: 24px;
+    }
+    main h2{
+        font-size: 18px;
+    }
+    aside h3{
+        font-size: 18px;
+    }
+    #listas {
+        width: 400px;
+        font-size: 16px;
+    }
+}
