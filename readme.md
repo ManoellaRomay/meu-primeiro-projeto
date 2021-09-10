@@ -1,10 +1,10 @@
 <h1 align= "center">
 Meu primeiro projeto </h1>
 <h2 align= "center">
-Desafio CeV - Um site de curiosidades Tech
+Desafio CeV - Um site de curiosidades Tech </h2>
 
 <div align="center">
-  <img src="" alt="Curiosidades Tech" title="Curiosidades Tech" width="600" />
+  <img src="https://github.com/ManoellaRomay/meu-primeiro-projeto/blob/master/img/imgindex.png" alt="Curiosidades Tech" title="Curiosidades Tech" width="600" />
   
 
 ### 😃 Sobre o meu primeiro projeto
