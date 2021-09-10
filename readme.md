@@ -5,7 +5,7 @@ Desafio CeV - Um site de curiosidades Tech </h2>
 
 <div align="center">
   <img src="https://github.com/ManoellaRomay/meu-primeiro-projeto/blob/master/img/imgindex.png" alt="Curiosidades Tech" title="Curiosidades Tech" width="600" />
-  
+</div>  
 
 ### 😃 Sobre o meu primeiro projeto
 
