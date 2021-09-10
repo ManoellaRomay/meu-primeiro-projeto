@@ -3,6 +3,10 @@ Meu primeiro projeto </h1>
 <h2 align= "center">
 Desafio CeV - Um site de curiosidades Tech
 
+<div align="center">
+  <img src="" alt="Curiosidades Tech" title="Curiosidades Tech" width="600" />
+  
+
 ### 😃 Sobre o meu primeiro projeto
 
 Desafio aplicado durante as aulas pelo Prof. Gustavo Guanabara (https://github.com/gustavoguanabara) do CeV, onde apresenta-se um site estático de curiosidades Tech sobre o mascote do Android.
