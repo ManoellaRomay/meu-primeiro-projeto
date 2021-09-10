@@ -9,7 +9,7 @@ Desafio CeV - Um site de curiosidades Tech </h2>
 
 ### 😃 Sobre o meu primeiro projeto
 
-Desafio aplicado durante as aulas pelo Prof. Gustavo Guanabara (https://github.com/gustavoguanabara) do CeV, onde apresenta-se um site estático de curiosidades Tech sobre o mascote do Android.
+Desafio aplicado durante as aulas do CeV pelo Prof. Gustavo Guanabara (https://github.com/gustavoguanabara), onde apresenta-se um site estático de curiosidades Tech sobre o mascote do Android.
 
 ---
 
@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com:
 
 ### 💜 O projeto
 
-Site estático de curiosidades sobre o mascote Android, e que apresenta algumas exigências para o desafio como:
+Trata-se de um site estático de curiosidades Tech sobre o mascote Android, e que apresenta algumas exigências para o desafio como:
 
 HTML
 - Inserir favicon,
@@ -40,7 +40,7 @@ CSS
 
 ### 🤗 Conclusão
 
-Estudos de flexbox e media queries foram as minhas maiores dificuldades apresentadas para esse projeto, que apresentou em sua finalização alguns problemas quanto a sua responsividade.
+Estudos de flexbox e media queries foram as minhas maiores dificuldades apresentadas para esse projeto, que apresentou em sua finalização inicial alguns problemas quanto a sua responsividade.
 
 ## 📂 Instalações e usos
 
